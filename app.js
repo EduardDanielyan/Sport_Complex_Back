@@ -70,6 +70,7 @@ app.post('/signin', function (req, res, next) {
 })
 
 app.post('/profile', UserController.profile)
+// app.post('/logouT' , UserController.logOut)
 app.post('/userCheck', async function (req, res) {
   if (req.user) {
     res.send('true')

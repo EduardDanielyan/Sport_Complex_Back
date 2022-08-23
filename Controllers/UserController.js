@@ -29,7 +29,11 @@ class UserController {
         console.log(req.user);
         res.send({user:req.user})
     }
-
+    
+    // logOut(req,res){
+    //     req.logout();
+    //     res.redirect('/signin')
+    // }
 
 }
 

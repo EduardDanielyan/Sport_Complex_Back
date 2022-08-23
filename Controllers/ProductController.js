@@ -14,6 +14,7 @@ class ProductController {
         res.send(spaInfo)
     }
 
+  
 }
 
 module.exports = {
